@@ -10,6 +10,7 @@ wget https://raw.githubusercontent.com/ethersphere/bee-clef/master/packaging/bee
 chmod +x ./bee-clef-keys
 ./bee-clef-keys
 wget -O cashout.sh https://gist.githubusercontent.com/ralph-pichler/3b5ccd7a5c5cd0500e6428752b37e975/raw/b40510f1172b96c21d6d20558ca1e70d26d625c4/cashout.sh
+chmod +x cashout.sh
 wget https://github.com/YourBroDuke/bee-client-conf/raw/master/check.sh
 chmod +x check.sh
 
