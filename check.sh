@@ -31,6 +31,6 @@ if [ ${NEW_CHEQUE} == 0 ]; then
         echo -e "${Lbl}[3] You have no new cheque${RCol}"
 else
         echo -e "${Yel}[3] Congrats! You have ${NEW_CHEQUE} new cheques!"
-        echo -e '--------------------CASHOUT-ALL--------------------${RCol}'
+        echo -e "--------------------CASHOUT-ALL--------------------${RCol}"
         ./cashout.sh cashout-all
 fi
