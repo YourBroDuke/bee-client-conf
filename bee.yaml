@@ -19,7 +19,7 @@ data-dir: /var/lib/bee
 ## db capacity in chunks, multiply by 4096 to get approximate capacity in bytes
 # db-capacity: 5000000
 ## number of open files allowed by database
-# db-open-files-limit: 200
+db-open-files-limit: 10000
 ## size of block cache of the database in bytes
 # db-block-cache-capacity: 33554432
 ## size of the database write buffer in bytes
@@ -75,4 +75,4 @@ swap-endpoint: https://goerli.infura.io/v3/4344dfdead6a45859f8781b16756c398
 ## log verbosity level 0=silent, 1=error, 2=warn, 3=info, 4=debug, 5=trace (default "info")
 # verbosity: info
 ## send a welcome message string during handshakes
-# welcome-message: ""
+welcome-message: "BZZzzzzz from Shanghai China! I'm YourBroDuke!"
